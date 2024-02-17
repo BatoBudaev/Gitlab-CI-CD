@@ -1,0 +1,58 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - cd src/cat
+    - make
+    - cd ../grep
+    - make
+  allow_failure: false
+  artifacts:
+    paths:
+      - src/cat/s21_cat
+      - src/grep/s21_grep
+    expire_in: 30 days
+  
+clang_tests:
+  stage: test
+  script:
+    - cd src/cat
+    - clang-format -n -style=google *.c *.h
+    - cd ../grep
+    - clang-format -n -style=google *.c *.h
+  allow_failure: false
+
+integration_tests:
+  stage: test
+  script:
+    - cd src/cat
+    - make test
+    - cd ../grep
+    - make test
+  dependencies:
+    - build
+    - clang_tests
+  allow_failure: false
+  artifacts:
+    paths:
+      - src/cat/log.txt
+      - src/grep/log.txt
+
+deploy:
+  stage: deploy
+  before_script:
+    - chmod +x src/deploy.sh
+  script:
+    - cd src
+    - ./deploy.sh
+  dependencies:
+    - build
+    - clang_tests
+    - integration_tests
+  allow_failure: false
+  after_script:
+    - bash src/telegram.sh $CI_JOB_STATUS

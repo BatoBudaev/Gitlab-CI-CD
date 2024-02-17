@@ -1,0 +1,185 @@
+
+TEST1
+-i file.txt test.txt test2.txt
+SUCCESS
+-v file.txt test.txt test2.txt
+SUCCESS
+-c file.txt test.txt test2.txt
+SUCCESS
+-l file.txt test.txt test2.txt
+SUCCESS
+-o file.txt test.txt test2.txt
+SUCCESS
+-s file.txt test.txt test2.txt
+SUCCESS
+-h file.txt test.txt test2.txt
+SUCCESS
+-n file.txt test.txt test2.txt
+SUCCESS
+
+TEST2
+-i -i file.txt test.txt test2.txt
+SUCCESS
+-i -v file.txt test.txt test2.txt
+SUCCESS
+-i -c file.txt test.txt test2.txt
+SUCCESS
+-i -l file.txt test.txt test2.txt
+SUCCESS
+-i -o file.txt test.txt test2.txt
+SUCCESS
+-i -s file.txt test.txt test2.txt
+SUCCESS
+-i -h file.txt test.txt test2.txt
+SUCCESS
+-i -n file.txt test.txt test2.txt
+SUCCESS
+-v -i file.txt test.txt test2.txt
+SUCCESS
+-v -v file.txt test.txt test2.txt
+SUCCESS
+-v -c file.txt test.txt test2.txt
+SUCCESS
+-v -l file.txt test.txt test2.txt
+SUCCESS
+-v -o file.txt test.txt test2.txt
+SUCCESS
+-v -s file.txt test.txt test2.txt
+SUCCESS
+-v -h file.txt test.txt test2.txt
+SUCCESS
+-v -n file.txt test.txt test2.txt
+SUCCESS
+-c -i file.txt test.txt test2.txt
+SUCCESS
+-c -v file.txt test.txt test2.txt
+SUCCESS
+-c -c file.txt test.txt test2.txt
+SUCCESS
+-c -l file.txt test.txt test2.txt
+SUCCESS
+-c -o file.txt test.txt test2.txt
+SUCCESS
+-c -s file.txt test.txt test2.txt
+SUCCESS
+-c -h file.txt test.txt test2.txt
+SUCCESS
+-c -n file.txt test.txt test2.txt
+SUCCESS
+-l -i file.txt test.txt test2.txt
+SUCCESS
+-l -v file.txt test.txt test2.txt
+SUCCESS
+-l -c file.txt test.txt test2.txt
+SUCCESS
+-l -l file.txt test.txt test2.txt
+SUCCESS
+-l -o file.txt test.txt test2.txt
+SUCCESS
+-l -s file.txt test.txt test2.txt
+SUCCESS
+-l -h file.txt test.txt test2.txt
+SUCCESS
+-l -n file.txt test.txt test2.txt
+SUCCESS
+-o -i file.txt test.txt test2.txt
+SUCCESS
+-o -v file.txt test.txt test2.txt
+SUCCESS
+-o -c file.txt test.txt test2.txt
+SUCCESS
+-o -l file.txt test.txt test2.txt
+SUCCESS
+-o -o file.txt test.txt test2.txt
+SUCCESS
+-o -s file.txt test.txt test2.txt
+SUCCESS
+-o -h file.txt test.txt test2.txt
+SUCCESS
+-o -n file.txt test.txt test2.txt
+SUCCESS
+-s -i file.txt test.txt test2.txt
+SUCCESS
+-s -v file.txt test.txt test2.txt
+SUCCESS
+-s -c file.txt test.txt test2.txt
+SUCCESS
+-s -l file.txt test.txt test2.txt
+SUCCESS
+-s -o file.txt test.txt test2.txt
+SUCCESS
+-s -s file.txt test.txt test2.txt
+SUCCESS
+-s -h file.txt test.txt test2.txt
+SUCCESS
+-s -n file.txt test.txt test2.txt
+SUCCESS
+-h -i file.txt test.txt test2.txt
+SUCCESS
+-h -v file.txt test.txt test2.txt
+SUCCESS
+-h -c file.txt test.txt test2.txt
+SUCCESS
+-h -l file.txt test.txt test2.txt
+SUCCESS
+-h -o file.txt test.txt test2.txt
+SUCCESS
+-h -s file.txt test.txt test2.txt
+SUCCESS
+-h -h file.txt test.txt test2.txt
+SUCCESS
+-h -n file.txt test.txt test2.txt
+SUCCESS
+-n -i file.txt test.txt test2.txt
+SUCCESS
+-n -v file.txt test.txt test2.txt
+SUCCESS
+-n -c file.txt test.txt test2.txt
+SUCCESS
+-n -l file.txt test.txt test2.txt
+SUCCESS
+-n -o file.txt test.txt test2.txt
+SUCCESS
+-n -s file.txt test.txt test2.txt
+SUCCESS
+-n -h file.txt test.txt test2.txt
+SUCCESS
+-n -n file.txt test.txt test2.txt
+SUCCESS
+
+TEST3
+-i -e Hello file.txt test.txt test2.txt
+SUCCESS
+-v -e Hello file.txt test.txt test2.txt
+SUCCESS
+-c -e Hello file.txt test.txt test2.txt
+SUCCESS
+-l -e Hello file.txt test.txt test2.txt
+SUCCESS
+-o -e Hello file.txt test.txt test2.txt
+SUCCESS
+-s -e Hello file.txt test.txt test2.txt
+SUCCESS
+-h -e Hello file.txt test.txt test2.txt
+SUCCESS
+-n -e Hello file.txt test.txt test2.txt
+SUCCESS
+
+TEST5
+-i -f file.txt test.txt test2.txt
+SUCCESS
+-v -f file.txt test.txt test2.txt
+SUCCESS
+-c -f file.txt test.txt test2.txt
+SUCCESS
+-l -f file.txt test.txt test2.txt
+SUCCESS
+-o -f file.txt test.txt test2.txt
+SUCCESS
+-s -f file.txt test.txt test2.txt
+SUCCESS
+-h -f file.txt test.txt test2.txt
+SUCCESS
+-n -f file.txt test.txt test2.txt
+SUCCESS
+
