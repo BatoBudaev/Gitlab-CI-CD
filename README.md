@@ -5,16 +5,14 @@
 ``CI/CD — это набор принципов и практик, которые позволяют чаще и надежнее развертывать изменения программного обеспечения.``  
 ``CI/CD pipeline - это последовательность действий (скриптов) для определенной версии кода в репозитории, которая запускается автоматически при совершении изменений.``  
 
-<div style="text-align:center">
+<p align="center">
+  <img src="images/img.png" alt="CI/CD pipelines" title="CI/CD pipelines" />
+  <br>
+  <em>Рис. 1 - CI/CD pipelines</em>
+</p>
 
-![CI/CD pipelines](images/img.png)  
-___Рис. 1 - CI/CD pipelines___  
-
-</div>
-
-<div style="text-align:center">
-
-![Уведомления телеграм бота](images/img_1.png)  
-___Рис. 2 - Уведомления телеграм бота___  
-
-</div>
+<p align="center">
+  <img src="images/img_1.png" alt="Уведомления телеграм бота" title="Уведомления телеграм бота" />
+  <br>
+  <em>Рис. 2 - Уведомления телеграм бота</em>
+</p>
