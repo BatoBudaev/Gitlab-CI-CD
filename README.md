@@ -10,7 +10,7 @@
   <br>
   <em>Рис. 1 - CI/CD pipelines</em>
 </p>
-___
+
 <p align="center">
   <img src="images/img_1.png" alt="Уведомления телеграм бота" title="Уведомления телеграм бота" />
   <br>
